@@ -1,0 +1,811 @@
+/***********************************
+/* (1)
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*************************************/
+@media (min-width: 768px) and
+(max-width: 1024px) {
+  
+
+
+  /* CSS */
+.banner{
+	height: 85vh;
+}
+.banner .col-md-6 img {
+    margin-left: 0px;
+}
+.banner-buttons{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+    gap: 25px;
+}
+.banner-text h1{
+    font-size: 42px;
+}
+.navbar-nav{
+	text-align: center;
+}
+.nav-item{
+	border-bottom: 1.75px solid #bbbbbb;
+}
+.nav-item:last-child{
+	border-bottom: none;
+}
+.navbar .btn-outline-success{
+	display: grid;
+    margin: auto;
+}
+.navbar-toggler:focus{
+    outline: none !important;
+    border: 2px solid #2500f9 !important;
+    box-shadow: none !important;
+}
+.app .row{
+	display: flex;
+	flex-direction: column;
+}
+.features .features-left{
+    display: flex;
+    align-items: center;
+}
+.features {
+    padding: 0px;
+}
+.features h1 {
+	width: 100%;
+}
+.features .col-md-6 p {
+	width: 100%;
+}
+.feature-2 .col-md-6 h2 {
+	font-size: 28px;
+}
+.feature-4 .col-md-6 img {
+    width: 100%;
+ }
+ .feature-5 {
+    padding: 0px;
+ }
+ .feature-6 .col-md-5{
+ 	display: flex;
+ 	align-items: center;
+ }
+.price-table .col-md-4{
+	width: 40%;
+	padding-left: 0px;
+	padding-right: 0px;;
+}
+.price-table .col-md-4 h1{
+	font-size: 45px;
+}
+.price-table .col-md-2{
+	width: 10%;
+}
+.testimonial .row .col-md-6:nth-child(1) img {
+    width: 100%;
+    margin-left: 0%;
+}
+.faq .accordion-item {
+    text-align: left;
+	margin-right: -10px;
+    margin-left: -30px;
+}
+.accordion-button.collapsed {
+    text-align: left;
+}
+.accordion-body {
+	text-align: center;
+}
+.full-width {
+    left: 25%;
+}
+.feature-3 {
+    margin-left: 0px;
+}
+.feature-3 .col-md-4 {
+    padding-right: 0px;
+}
+.app .col-md-5 img {
+	width: 275%;
+}
+
+
+/******************/
+}
+
+
+/***********************************
+/ (2)
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+************************************/
+@media (min-width: 768px) and (max-width: 1366px) and (orientation: landscape) {
+  
+
+
+  /* CSS */
+.banner{
+	height: 100vh;
+}
+.banner .col-md-6 img {
+    margin-left: 0px;
+}
+.banner-buttons{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+    gap: 25px;
+}
+.banner-text h1{
+    font-size: 42px;
+}
+.navbar-nav{
+	text-align: center;
+}
+.nav-item{
+	border-bottom: 1.75px solid #bbbbbb;
+}
+.nav-item:last-child{
+	border-bottom: none;
+}
+.navbar .btn-outline-success{
+	display: grid;
+    margin: auto;
+}
+.navbar-toggler:focus{
+    outline: none !important;
+    border: 2px solid #2500f9 !important;
+    box-shadow: none !important;
+}
+.app .row{
+	display: flex;
+	flex-direction: column;
+}
+.features .features-left{
+    display: flex;
+    align-items: center;
+}
+.features {
+    padding: 0px;
+}
+.features h1 {
+	width: 100%;
+}
+.features .col-md-6 p {
+	width: 100%;
+}
+.feature-2 .col-md-6 h2 {
+	font-size: 28px;
+}
+.feature-4 .col-md-6 img {
+    width: 100%;
+ }
+ .feature-5 {
+    padding: 0px;
+ }
+ .feature-6 .col-md-5{
+ 	display: flex;
+ 	align-items: center;
+ }
+.price-table .col-md-4{
+	width: 40%;
+	padding-left: 0px;
+	padding-right: 0px;;
+}
+.price-table .col-md-4 h1{
+	font-size: 45px;
+}
+.price-table .col-md-2{
+	width: 10%;
+}
+.testimonial .row .col-md-6:nth-child(1) img {
+    width: 100%;
+    margin-left: 0%;
+}
+.faq .accordion-item {
+    text-align: left;
+	margin-right: -10px;
+    margin-left: -30px;
+}
+.accordion-button.collapsed {
+    text-align: left;
+}
+.accordion-body {
+	text-align: center;
+}
+.full-width {
+    left: 0%;
+}
+.feature-3 {
+    margin-left: 0px;
+}
+.feature-3 .col-md-4 {
+    padding-right: 0px;
+}
+.app .col-md-5 img {
+    margin-left: 350px;
+    margin-top: -370px;
+    position: relative;
+    width: 80vh;
+}
+
+
+
+
+
+
+/******************/
+}
+
+
+/***********************************
+/* (3)
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 480px
+************************************/
+@media (min-width: 320px) and 
+(max-width: 480px) {
+  
+
+
+  /* CSS */
+.banner{
+	height: auto;
+}
+.banner .col-md-6 img {
+    margin-left: 0px;
+}
+header {
+    padding: 50px 0 25px 0;
+}
+.banner-hint {
+	margin-top: 30px;
+}
+.banner-text h1 {
+    text-align: left;
+    font-size: 35px;
+    margin: 55px 0 25px 0;
+}
+.banner-text p {
+    text-align: left;
+	width: 100%;
+}
+.banner-buttons{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	gap: 18px;
+    margin-bottom: 70px;
+}
+.banner-text a {
+    margin-right: 0px;
+    margin: auto;
+}
+.navbar-nav{
+	text-align: center;
+	margin-right: 0px;
+}
+.nav-item{
+	border-bottom: 1.75px solid #bbbbbb;
+}
+.nav-item:last-child{
+	border-bottom: none;
+}
+.navbar .btn-outline-success{
+	display: grid;
+    margin: auto;
+}
+.navbar-toggler:focus{
+    outline: none !important;
+    border: 2px solid #2500f9 !important;
+    box-shadow: none !important;
+}
+.sponsor {
+    margin: 50px 0;
+}
+.features{
+	padding: 0px;
+}
+.features-pera{
+    margin-bottom: 32px !important;
+}
+.features h1 {
+	width: 100%;
+	padding: 0 15px;
+	font-size: 28px;
+    line-height: 35px;
+}
+.features .col-md-6 p {
+    width: 100%;
+    padding: 0 15px;
+    text-align: center;
+}
+.features-items{
+	text-align: center;
+}
+.features-items img{
+	display: flex;
+	margin: auto;
+}
+.row .feature-2{
+	padding-right: 0px;
+}
+.row .feature-2 .col-md-6{
+	padding-right: 0px;
+
+}
+.feature-2 .col-md-6 h2 {
+    padding: 0px 26px;
+    border-right: none;
+    border-bottom: 1.75px solid #bbbbbb;
+    border-collapse: separate;
+    border-spacing: 2px;
+    font-size: 24px;
+    border-bottom-style: groove;
+    text-align: center;
+}
+.feature-2 .col-md-6 p {
+	font-weight: 400;
+	margin-bottom: 45px;
+}
+.feature-3 .col-md-4 {
+    padding-right: 0px;
+}
+.feature-3 {
+    margin-left: 0px;
+}
+.feature-3 img{
+	display: flex;
+	margin: auto;
+}
+.row .feature-3 p {
+	width: 100%;
+	margin-bottom: 50px;
+}
+.feature-4{
+	margin-left: 0px;
+}
+.feature-4 h2 {
+    font-size: 30px;
+}
+.feature-4 .col-md-6 img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.feature-4 .btn-outline-success {
+	display: flex;
+	margin: auto;
+}
+.feature-5 {
+    padding: 55px 0 0px 0;
+    border-top: 2px solid #f4f4f4;
+}
+.feature-5 .row {
+    margin-bottom: 20px;
+}
+.feature-5 .col-md-12 h2{
+	font-size: 30px;
+}
+.feature-5 .col-md-12 p {
+	margin-bottom: 20px;
+}
+.feature-5 .col-md-4 p {
+    width: 100%;
+    margin: 0 auto 60px auto;
+}
+.feature-6 .row{
+	width: 100%;
+}
+.feature-6 .col-md-5{
+    margin-left: 40px;
+}
+.feature-6 .col-md-7 p {
+    width: 100%;
+}
+.feature-6 .col-md-7 h2 {
+    width: 100%);
+}
+.feature-6 img{
+	display: flex;
+	margin: auto;
+}
+.feature-6 .col-md-7 h2 {
+    width: 100%;
+}
+.feature-6 .btn-outline-success{
+   display: grid;
+   margin: auto;
+}
+.feature-6 .col-md-5 img {
+    width: 100%;
+}
+.pricing {
+	padding: 50px 0 80px 0;
+}
+.testimonial {
+    padding: 0px;
+}
+.testimonial .row{
+	width: 100%;
+	margin-right: 0px;
+}
+.testimonial .row .col-md-6:nth-child(1) img {
+    width: 100%;
+    margin-left: 20px;
+    padding: 0 20px;
+}
+.testimonial .row .col-md-6:nth-child(2) > h2 {
+	width: 100%;
+	margin-top: 44px;
+	font-size: 27px;
+}
+.testimonial .fa-star{
+	text-align: center;
+}
+.testimonial .col-md-6{
+	padding-right: 0px;
+	width: 92%;
+}
+.testimonial .row .col-md-6:nth-child(2) .item {
+	width: 100%;
+}
+.testimonial .no-js .owl-carousel, .owl-carousel.owl-loaded {
+    margin-left: 0px;
+}	
+.testimonial .row .col-md-6:nth-child(2) > h2 {
+    margin-left: 20px;
+}	
+.testimonial .row .col-md-6:nth-child(2) > p {
+    margin-left: 20px;
+}
+.testimonial .row .col-md-6:nth-child(2) .item {
+	margin-left: 10px;
+}
+.testimonial .row .col-md-6:nth-child(2) .owl-nav {
+	bottom: -50px;
+}
+.faq {
+    padding: 120px 0 20px 0;
+}
+.faq .row{
+	width: 100%;
+}
+.faq .row .col-md-8{
+	padding-right: 0px;
+}
+.faq .row .col-md-8 h2 {
+    font-size: 32px;
+ }
+.faq .accordion {
+    padding: 0 20px;
+}
+.faq .accordion-button {
+	font-size: 15px;
+}
+.full-width {
+    left: 35%;
+    bottom: -75px;
+}
+.app .col-md-5 img {
+	margin-bottom: 60px;
+}
+footer .navbar-brand {
+	margin-top: 0px;
+}
+footer .d-flex{
+	display: inline !important;
+}
+footer ul:nth-child(2) li {
+    padding: 0px;
+    margin: 16px 0px -10px 0px;
+}
+footer ul:nth-child(3) li {
+	margin: 0 20px;
+}
+footer p {
+	margin: 30px 0;
+	font-size: 18px;
+}
+h2{
+	font-size: 32px;
+}
+h1,h2,h3,h4,h5,h6,p{
+	text-align: center;
+}
+footer .footer-icon{
+	display: flex !important;
+    margin-top: 40px;
+}
+
+
+
+ /*********************/
+}
+
+
+
+
+/***********************************
+/* (4)
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+************************************/
+@media (min-width: 481px) and 
+(max-width: 760px) {
+  
+
+
+  /* CSS */
+.banner{
+	height: auto;
+}
+.banner .col-md-6 img {
+    margin-left: 0px;
+}
+header {
+    padding: 50px 0 25px 0;
+}
+.banner-hint {
+	margin-top: 30px;
+}
+.banner-text h1 {
+    text-align: left;
+    font-size: 35px;
+    margin: 55px 0 25px 0;
+}
+.banner-text p {
+    text-align: left;
+	width: 100%;
+}
+.banner-buttons{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	gap: 18px;
+    margin-bottom: 70px;
+}
+.banner-text a {
+    margin-right: 0px;
+    margin: auto;
+}
+.navbar-nav{
+	text-align: center;
+	margin-right: 0px;
+}
+.nav-item{
+	border-bottom: 1.75px solid #bbbbbb;
+}
+.nav-item:last-child{
+	border-bottom: none;
+}
+.navbar .btn-outline-success{
+	display: grid;
+    margin: auto;
+}
+.navbar-toggler:focus{
+    outline: none !important;
+    border: 2px solid #2500f9 !important;
+    box-shadow: none !important;
+}
+.sponsor {
+    margin: 50px 0;
+}
+.features{
+	padding: 0px;
+}
+.features-pera{
+    margin-bottom: 32px !important;
+}
+.features h1 {
+	width: 100%;
+	padding: 0 15px;
+	font-size: 28px;
+    line-height: 35px;
+}
+.features .col-md-6 p {
+    width: 100%;
+    padding: 0 15px;
+    text-align: center;
+}
+.features-items{
+	text-align: center;
+}
+.features-items img{
+	display: flex;
+	margin: auto;
+}
+.row .feature-2{
+	padding-right: 0px;
+}
+.row .feature-2 .col-md-6{
+	padding-right: 0px;
+
+}
+.feature-2 .col-md-6 h2 {
+    padding: 0px 26px;
+    border-right: none;
+    border-bottom: 1.75px solid #bbbbbb;
+    border-collapse: separate;
+    border-spacing: 2px;
+    font-size: 24px;
+    border-bottom-style: groove;
+    text-align: center;
+}
+.feature-2 .col-md-6 p {
+	font-weight: 400;
+	margin-bottom: 45px;
+}
+.feature-3 .col-md-4 {
+    padding-right: 0px;
+}
+.feature-3 {
+    margin-left: 0px;
+}
+.feature-3 img{
+	display: flex;
+	margin: auto;
+}
+.row .feature-3 p {
+	width: 100%;
+	margin-bottom: 50px;
+}
+.feature-4{
+	margin-left: 0px;
+}
+.feature-4 h2 {
+    font-size: 30px;
+}
+.feature-4 .col-md-6 img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.feature-4 .btn-outline-success {
+	display: flex;
+	margin: auto;
+}
+.feature-5 {
+    padding: 55px 0 0px 0;
+    border-top: 2px solid #f4f4f4;
+}
+.feature-5 .row {
+    margin-bottom: 20px;
+}
+.feature-5 .col-md-12 h2{
+	font-size: 30px;
+}
+.feature-5 .col-md-12 p {
+	margin-bottom: 20px;
+}
+.feature-5 .col-md-4 p {
+    width: 100%;
+    margin: 0 auto 60px auto;
+}
+.feature-6 .row{
+	width: 100%;
+}
+.feature-6 .col-md-5{
+    margin-left: 40px;
+}
+.feature-6 .col-md-7 p {
+    width: 100%;
+}
+.feature-6 .col-md-7 h2 {
+    width: 100%);
+}
+.feature-6 img{
+	display: flex;
+	margin: auto;
+}
+.feature-6 .col-md-7 h2 {
+    width: 100%;
+}
+.feature-6 .btn-outline-success{
+   display: grid;
+   margin: auto;
+}
+.feature-6 .col-md-5 img {
+    width: 100%;
+}
+.pricing {
+	padding: 50px 0 80px 0;
+}
+.testimonial {
+    padding: 0px;
+}
+.testimonial .row{
+	width: 100%;
+	margin-right: 0px;
+}
+.testimonial .row .col-md-6:nth-child(1) img {
+    width: 100%;
+    margin-left: 20px;
+    padding: 0 20px;
+}
+.testimonial .row .col-md-6:nth-child(2) > h2 {
+	width: 100%;
+	margin-top: 44px;
+	font-size: 27px;
+}
+.testimonial .fa-star{
+	text-align: center;
+}
+.testimonial .col-md-6{
+	padding-right: 0px;
+	width: 92%;
+}
+.testimonial .row .col-md-6:nth-child(2) .item {
+	width: 100%;
+}
+.testimonial .no-js .owl-carousel, .owl-carousel.owl-loaded {
+    margin-left: 0px;
+}	
+.testimonial .row .col-md-6:nth-child(2) > h2 {
+    margin-left: 20px;
+}	
+.testimonial .row .col-md-6:nth-child(2) > p {
+    margin-left: 20px;
+}
+.testimonial .row .col-md-6:nth-child(2) .item {
+	margin-left: 10px;
+}
+.testimonial .row .col-md-6:nth-child(2) .owl-nav {
+	bottom: -50px;
+}
+.faq {
+    padding: 120px 0 20px 0;
+}
+.faq .row{
+	width: 100%;
+}
+.faq .row .col-md-8{
+	padding-right: 0px;
+}
+.faq .row .col-md-8 h2 {
+    font-size: 32px;
+ }
+.faq .accordion {
+    padding: 0 20px;
+}
+.faq .accordion-button {
+	font-size: 15px;
+}
+.full-width {
+	left: 28%;
+	bottom: -88px;
+}
+.app .col-md-5 img {
+	margin-bottom: 60px;
+}
+footer .navbar-brand {
+	margin-top: 0px;
+}
+footer .d-flex{
+	display: inline !important;
+}
+footer ul:nth-child(2) li {
+    padding: 0px;
+    margin: 16px 0px -10px 0px;
+}
+footer ul:nth-child(3) li {
+	margin: 0 20px;
+}
+footer p {
+	margin: 30px 0;
+	font-size: 18px;
+}
+h2{
+	font-size: 32px;
+}
+h1,h2,h3,h4,h5,h6,p{
+	text-align: center;
+}
+footer .footer-icon{
+	display: flex !important;
+    margin-top: 40px;
+
+ /*********************/
+}
+
+}
